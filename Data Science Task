@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+ages = [18, 25, 30, 35, 40, 45, 50]
+population = [5000, 8000, 10000, 12000, 11000, 9000, 7000]
+fig= plt.figure(figsize = (10, 5))
+plt.bar(ages, population, color="green", width=2)
+plt.xlabel('Age', fontweight="bold", fontsize=30)
+plt.ylabel('Population', fontweight="bold", fontsize=30)
+plt.show()
